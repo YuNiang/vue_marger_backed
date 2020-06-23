@@ -1,0 +1,91 @@
+// Color
+@primary-color          : #2d8cf0;
+@info-color             : #2db7f5;
+@success-color          : #19be6b;
+@warning-color          : #ff9900;
+@error-color            : #ed3f14;
+@link-color             : #2D8cF0;
+@link-hover-color       : tint(@link-color, 20%);
+@link-active-color      : shade(@link-color, 5%);
+@selected-color         : fade(@primary-color, 90%);
+@tooltip-color          : #fff;
+@subsidiary-color       : #80848f;
+@rate-star-color        : #f5a623;
+@text-color             : #495060;
+@text-secondary         : #909399;
+@font-size-base         : 14px;
+@font-size-small        : 12px;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+// text-align
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+// margin
+.mr10 {
+  margin-right: 10px;
+}
+
+// float
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+// width
+.width-full {
+  width: 100%;
+}
+
+// cursor
+.pointer {
+  cursor: pointer;
+}
+
+// label
+a {
+  // text-decoration: none;
+  color: @primary-color;
+}
+
+// text size
+.text-small {
+  font-size: 12px;
+}
+
+// text Color
+.text-primary {
+  color: @primary-color;
+}
+.text-success {
+  color: @success-color;
+}
+.text-error {
+  color: @error-color;
+}
+.text-secondary {
+  color: @text-secondary;
+}
+
+@media (max-width: 768px) {
+  .el-card__body {
+    padding: 10px !important;
+  }
+}

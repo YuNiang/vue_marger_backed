@@ -1,0 +1,6 @@
+export const WALLET = 'WALLET'
+export const MARKET = 'MARKET'
+export const COINS = 'COINS'
+export const COINSOBJ = 'COINSOBJ'
+export const MARKETCASCADER = 'MARKETCASCADER'
+export const MARKETOBJ = 'MARKETOBJ'
